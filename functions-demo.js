@@ -52,5 +52,15 @@ function rollDice() {
 let firstRoll = rollDice();
 let secondRoll = rollDice();
 
-console.log(firstRoll);
-console.log(secondRoll);
+// console.log(firstRoll);
+// console.log(secondRoll);
+
+function diceMultiplier() {
+    let firstRoll = rollDice();
+    let secondRoll = rollDice();
+
+    console.log(firstRoll * secondRoll);
+}
+
+let multipliedRoll = diceMultiplier();
+console.log(multipliedRoll);
